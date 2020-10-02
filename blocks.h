@@ -7,13 +7,7 @@ static const Block blocks[] = {
 
 	{"", "~/bin/statusbar/volume",						0,		10},
 
-	{"☀", "xbacklight | sed 's/\\..*//'",					0,		11},
-	
-	{"", "~/bin/statusbar/battery",						5,		0},
 
-	{"🌡", "sensors | awk '/^temp1:/{print $2}'",				5,		0},
-
-	{"", "~/bin/statusbar/clock",						5,		0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
